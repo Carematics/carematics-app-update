@@ -1,0 +1,41 @@
+{
+  "name": "carematics",
+  "description": "",
+  "version": "0.0.1",
+  "main": "index.html",
+  "nodejs": true,
+  "single-instance": true,
+  "user-agent": "%name %ver %nwver %webkit_ver %osinfo",
+  "window": {
+    "fullscreen": false,
+    "resizable": true,
+    "title": "Transition Manager",
+    "always-on-top": false,
+    "frame": true,
+    "height": 1200,
+    "visible": true,
+    "as_desktop": false,
+    "position": "",
+    "show_in_taskbar": true,
+    "mac_app_icon": "",
+    "width": 2000,
+    "toolbar": true,
+    "icon": "carematics.png"
+  },
+  "webkit": {
+    "page-cache": false,
+    "java": false,
+    "plugin": false
+  },
+  "manifestUrl": "http://carematics-app-update.carematics.com/carematics-client-build/package.json",
+  "packages": {
+    "win": {
+      "url": "http://carematics-app-update.carematics.com/carematics-client-build/carematics_setup.exe"
+    }
+  },
+  "dependencies": {
+    "request": "^2.51.0",
+    "request-progress": "^0.3.1",
+    "semver": "^4.2.0"
+  }
+}
