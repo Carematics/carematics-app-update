@@ -19,7 +19,7 @@
     "show_in_taskbar": true,
     "mac_app_icon": "",
     "width": 2000,
-    "toolbar": true,
+    "toolbar": false,
     "icon": "carematics.png"
   },
   "webkit": {
@@ -27,10 +27,10 @@
     "java": false,
     "plugin": false
   },
-  "manifestUrl": "http://carematics-app-update.carematics.com/carematics-client-build/package.json",
+  "manifestUrl": "https://raw.githubusercontent.com/Carematics/carematics-app-update/master/carematics-client-build/package.json",
   "packages": {
     "win": {
-      "url": "http://carematics-app-update.carematics.com/carematics-client-build/carematics_setup.exe"
+      "url": "https://raw.githubusercontent.com/Carematics/carematics-app-update/master/carematics-client-build/carematics_setup.exe"
     }
   },
   "dependencies": {
