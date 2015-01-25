@@ -1,8 +1,8 @@
 {
   "name": "carematics",
   "description": "",
-  "version": "0.0.2",
-  "main": "index.html",
+  "version": "0.0.3",
+  "main": "main.html",
   "nodejs": true,
   "single-instance": true,
   "user-agent": "%name %ver %nwver %webkit_ver %osinfo",
@@ -12,14 +12,14 @@
     "title": "Transition Manager",
     "always-on-top": false,
     "frame": true,
-    "height": 1200,
-    "visible": true,
+    "height": 800,
     "as_desktop": false,
     "position": "",
     "show_in_taskbar": true,
     "mac_app_icon": "",
-    "width": 2000,
+    "width": 1000,
     "toolbar": false,
+    "show": false,
     "icon": "carematics.png"
   },
   "webkit": {
@@ -34,6 +34,7 @@
     }
   },
   "dependencies": {
+    "minimist": "^1.1.0",
     "request": "^2.51.0",
     "request-progress": "^0.3.1",
     "semver": "^4.2.0"
