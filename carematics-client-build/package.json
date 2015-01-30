@@ -1,10 +1,11 @@
 {
   "name": "carematics",
   "description": "",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "main.html",
   "nodejs": true,
   "single-instance": true,
+  "node-remote": "127.0.0.1, *.carematics.com:443",
   "user-agent": "%name %ver %nwver %webkit_ver %osinfo",
   "window": {
     "fullscreen": false,
@@ -20,6 +21,7 @@
     "width": 1000,
     "toolbar": false,
     "show": false,
+    "focus": true,
     "icon": "carematics.png"
   },
   "webkit": {
