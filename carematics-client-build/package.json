@@ -1,7 +1,7 @@
 {
   "name": "carematics",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "main.html",
   "nodejs": true,
   "single-instance": true,
@@ -10,7 +10,7 @@
   "window": {
     "fullscreen": false,
     "resizable": true,
-    "title": "Transition Manager",
+    "title": "Carematics",
     "always-on-top": false,
     "frame": true,
     "height": 800,
